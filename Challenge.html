@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylechallenge.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script type="text/javaScript" src="Script.js"></script>
+
+    <title>Encriptador de Mensajes</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoimg" src="Imagenes/Logo.png" alt="logo de Alura">
+            <h1 class="title">Encriptador de Mensajes</h1>
+        </div>
+   
+        <div class="left">
+            <input class="textInput" id="input-texto" type="text" placeholder="RECUERDE: Escriba el mensaje en minúsculas y sin acentos">
+        </div>
+        <div class="right">
+            <img class="cosito" src="Imagenes/cosito.png" alt="cosito" id="imgCosito">
+            <h1 id="texto">Ningún mensaje fue encontrado</h1>
+            <textarea id="texto2" cols="70" rows="10" >Ingrese el mensaje a desencriptar</textarea>
+            <button type="button" id="btnCopiar" onclick="copiar()" type="button" name="button">Copiar</button>
+        </div>
+        <div class="leftButtom">
+           
+            <button type="button" id="btnEncriptar" onclick="encriptar()"> Encriptar </button>
+            <button type="button" id="btnDesencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+     </div>
+    <footer class="footer">
+        <p>By Dalisolca</p>
+    </footer>
+</body>
+</html>
