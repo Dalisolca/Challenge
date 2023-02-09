@@ -56,12 +56,14 @@ body{
     margin-top: 20%;
     width: 100%;
     height: 340px;
-    color: black;
     font-size: 35px;
-    border:none;
+    font-style: italic;
+    font-weight: bold;
+    border: none;
     outline: none;
     background: fuchsia; 
 }
+
 #imgCosito{
     width: 80%;
     height: 30%;

@@ -45,6 +45,7 @@ document.getElementById("copiar").style.display = "inherit";
 
 function copiar() {
     var contenido = document.querySelector("#texto2");
+        contenido.ariaSelected();
         document.execCommand("copiar");
         alert("¡Se copió!");
 }
